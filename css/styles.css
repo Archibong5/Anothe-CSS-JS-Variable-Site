@@ -1,0 +1,65 @@
+html{
+  background: var(--background);
+  color:white;
+  text-align: center;
+}
+
+h1{
+  font-size: 5em;
+}
+
+label{
+  font-size: 1em;
+}
+
+input{
+  margin: 30px 0 30px 0;
+  width: 30%;
+
+}
+
+.control{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  flex: 1
+}
+
+#first-container{
+  display: flex;
+  margin-top: 150px;
+}
+
+:root{
+  --spacing: 10px;
+  --blur: 10px;
+  --base: #FFE15D;
+  --border: 10%;
+  --rotate: 10deg;
+  --background: #191825;
+
+}
+
+.hl{
+  color: var(--base);
+}
+
+img{
+  padding: var(--spacing);
+  filter: blur(var(--blur));
+  background: var(--base);
+  border-radius: var(--border);
+  transform: rotate(var(--rotate));
+
+}
+
+input[type=range]{
+  accent-color: var(--base);
+}
